@@ -1,0 +1,7 @@
+1. De combinatie van een processor en een besturingssysteem.
+2. Omdat het vertaald word naar een tussentaal genaamd bytecode en dan kan elke machine met een JVM dat weer lezen en vertalen.
+3. Bytecode is een tussentaal die gebruikt word tussen verschillende platforms.
+4. Die vertaald de bytecode naar de machinetaal voor het betreffende platform.
+5. g.drawRect()
+6. g.drawoval(), g.drawArc() en g.drawRoundRect
+7. Omdat de methode paint() wordt aangeroepen als het scherm ververst word.

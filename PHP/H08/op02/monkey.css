@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 12-jun-2014, 11:55:31
+    Author     : janjaap
+*/
+
+body {
+    margin:auto;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 4.5vh;
+}
+
+.aap {
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    color: #ff8400;
+    line-height: 6.0vh;
+}
+
+img {
+    margin:auto;
+    display:block;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div {
+    float: left;
+    width: 30%;
+}
+
+form div.deel2 section ul li input {
+    position: relative;
+    left: 0;
+}
+
+form div.deel3 {
+    width: 100%;
+    padding-left: 550px;
+    padding-top: 100px;
+}
+
+form ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form ul li {
+    padding: 10px;
+}
+
+form ul li input, select, textarea {
+    position: absolute;
+    left: 150px;
+}
+
+form ul li#gender input {
+    position: relative;
+    width: 50px;
+    padding: 10px;
+    left: 24px;
+}
+
+form ul li#gender label {
+    padding-right: 25px;
+}

@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    border: 5px solid darkgray;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+    background: white;
+    flex: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(220,106,94);
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+#headerimg {
+    display: inline-flex;
+    width: 100%;
+    height: 200px;
+}
+
+#main {
+    padding-left: 10px;
+}
+img.persoonfoto{
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+}
+div#wrapper{
+    margin: auto;
+    width: 90%;
+    background-color: rgb(250,241,234);
+}
+div#Sam{
+    width: 30%;
+    vertical-align: top;
+    text-align: match-parent;
+    display: inline-block;
+}
+div#Menguelito{
+    width: 30%;
+    vertical-align: top;
+    text-align: match-parent;
+    display: inline-block;
+}
+div#Quinten{
+    width: 30%;
+    vertical-align: center;
+    text-align: match-parent;
+    display: inline-block;
+}
+img#Menguelitofoto{
+    transform: rotate(-90deg);
+}
+img#Samfoto{
+    transform: rotate(90deg);
+}
+footer {
+    background-color: rgb(153, 153, 153);
+}
+
+.footerlink {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.footerstuff1 {
+    display: inline-block;
+    width: 80%;
+}
+.footerstuff2 {
+    width: 10%;
+    display: inline-block;
+}
+
+#groepsfoto {
+    position: relative;
+    vertical-align: top;
+    float: right;
+}
+
+#copyright {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+.header {
+    border: 5px solid rgb(220,106,94);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+    background: rgb(250,241,234);
+    flex: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(220,106,94);
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(250,241,234);
+    color: black;
+}
+
+#headerimg {
+    display: inline-flex;
+    width: 100%;
+    height: 200px;
+}
+h3 {
+    text-align: center;
+}
+img.Samfoto{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+}

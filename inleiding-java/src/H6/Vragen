@@ -1,0 +1,4 @@
+1. Anders kan het dat er op de geheugencellen nog een waarde van een vorig programma staat.
+2. Omdat er informatie verloren gaat en dat laat het programma niet zomaar toe.
+3. De uitkomst is 5.333333... omdat de variable uitkomst een double is.
+4/5.  De uitkomst is dan 10.66666666667 omdat de haken wegzijn en "/" meer prioriteit heeft dan "+"

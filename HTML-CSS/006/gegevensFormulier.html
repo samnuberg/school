@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/gegevensFormulier.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Formulier</title>
+</head>
+<body>
+
+<header>
+    <h1>Voorbeeldformulier</h1>
+</header>
+
+<form action="https://www.savatarian.com/html5/form.php" method="get">
+    <div class="deel1">
+        <section>
+            <ul>
+                <li>
+                    <label for="voornaam">Voornaam</label>
+                    <input name="voornaam" type="text" id="voornaam">
+                </li>
+                <li>
+                    <label for="tussenvoegsel">Tussenvoegsel</label>
+                    <input name="tussenvoegsel" type="text" id="tussenvoegsel">
+                </li>
+                <li>
+                    <label for="achternaam">Achternaam</label>
+                    <input name="achternaam" type="text" id="achternaam">
+                </li>
+                <li id="gender">
+                    <label>Geslacht</label>
+                    <input type="radio" name="geslacht" value="man">
+                    &nbsp;Man
+                    <input type="radio" name="geslacht" value="vrouw">
+                    &nbsp;Vrouw
+                </li>
+                <li>
+                    <label>Kleur ogen</label>
+                    <select name="kleur-ogen">
+                        <option>groen</option>
+                        <option>blauw</option>
+                        <option>bruin</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Geboortedatum</label>
+                    <input type="date" name="geboortedatum">
+                </li>
+                <li>
+                    <label>Omschrijving</label>
+                    <textarea name="omschrijving>" rows="7" cols="30"></textarea>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="deel2">
+        <section>
+            <ul>
+                <li>
+                    <label>Lekker eten:</label><br>
+                    <input type="checkbox" name="lekker-eten" value="patat">
+                    <span class="checkbox">Patat</span><br>
+                    <input type="checkbox" name="lekker-eten" value="bruine bonen">
+                    <span class="checkbox">Bruine bonen</span><br>
+                    <input type="checkbox" name="lekker-eten" value="linzen">
+                    <span class="checkbox">Linzen</span>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="deel3">
+        <input type="reset" name="annuleer" value="Annuleer">
+        <input type="submit" name="verzenden" value="OK">
+    </div>
+</form>
+</body>
+</html>

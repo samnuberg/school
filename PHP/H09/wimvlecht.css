@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+/* -- Header -- */
+
+img#header-image {
+    width: 100%;
+    padding: 0px;
+}
+
+header {
+    height: 143px;
+}
+
+/* -- Einde header -- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -- Navigatie -- */
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    background-color: #F5F5DC;
+    padding: 10px;
+    padding-left: 20px;
+    border-top: 1px solid white;
+}
+
+li.login {
+    float: right;
+}
+
+
+li a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+li a.buttons:hover {
+    color: deeppink;
+}
+
+@media all and (min-width: 550px){
+    ul {
+        background-color: #F5F5DC;
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+/* -- Einde Navigatie -- */
+
+
+/* -- Broodjes -- */
+
+ul.broodjes {
+    background-color: white;
+    border-top: 1px solid white;
+}
+
+ul.broodjes li {
+    background-color: white;
+    padding: 10px;
+    padding-right: 80px;
+    border-top: 1px solid white;
+}
+
+li.colum-1 {
+    left: 0%;
+}
+
+li.colum-2 {
+    margin-left: 20%;
+}
+
+li.colum-3 {
+    margin-left: 20%;
+}
+
+li.colum-4 {
+    margin-left: 20%;
+}
+
+/* -- Einde broodjes -- */
+
+
+/* -- Login -- */
+
+input[type=email], [type=password], [type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div#form-menu, #form-broodjetoevoegen {
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;
+}
+
+
+/* -- Einde login -- */
+
+
+/* -- Table broodjes -- */
+
+#broodjes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#broodjes td, #broodjes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#broodjes tr:nth-child(even){background-color: #f2f2f2;}
+
+#broodjes tr:hover {background-color: #ddd;}
+
+#broodjes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+/* -- Einde table broodjes -- */
